@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Gedung Olahraga</title>
+
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="jumbotron">
+            <div class="slider-container">
+                <div class="slides">
+                    <div class="slide"><img src="assets/foto lapangan badminton.jpg" alt="Slide 1"></div>
+                    <div class="slide"><img src="assets/foto lapangan bola volly.jpg" alt="Slide 2"></div>
+                    <div class="slide"><img src="assets/lapangan futsal rumput sintetis.jpg" alt="Slide 3"></div>
+                </div>
+                <div class="prev" onclick="plusSlides(-1)">❮</div>
+                <div class="next" onclick="plusSlides(1)">❯</div>
+            </div>
+            <h1>Ciptagumati Sport Centre</h1>
+            <p>
+                Booking sekarang sebelum Lapangan penuh !
+            </p>
+        </div>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="#Futsal">Lapangan Futsal</a>
+                </li>
+                <li>
+                    <a href="#Badminton">Lapangan Badminton</a>
+                </li>
+                <li>
+                    <a href="#Volly">Lapangan Volly</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <div id="content">
+            <article id="about" class="card">
+                <h2>Tentang Kami</h2>
+                <section>
+                    <h3>Ciptagumati Sport Centre</h3>
+                    <p>
+                        Berada di daerah Cikalong, Ciptagumati Sport Centre menjadi Pusat Olahraga terutama olahraga futsal yang tidak pernah sepi pengunjung. Selain karena letaknya strategis, Sport Centre ini juga menghadirkan Lapangan Volly dan Badminton. Ciptagumati Sport
+                        Centre boleh dikunjungi oleh siapapun, tanpa tiket. Namun, bagi yang ingin menggunakan fasilitas tersebut tentu harus memesan atau boking terlebih dahulu.
+                    </p>
+                </section>
+
+
+                <section>
+                    <h3>Dokumentasi Turnamen Futsal</h3>
+                    <img src="assets/gor ciptagumati.png" alt="lapangan ciptagumati" class="featured-image">
+                    <p>
+                        Pernah mengadakan turnamen futsal antar sekolah terutama tingkat SMK. selain turnamen futsal juga pernah mengadakan turnamen volly dan badminton akan tetapi tidak seramai futsal.
+                    </p>
+                </section>
+            </article>
+            <article id="Futsal" class="card">
+                <h2>Lapangan Futsal</h2>
+                <img src="assets/lapangan futsal rumput sintetis.jpg" alt="Lapangan Futsal" class="featured-image">
+                <p>Deskripsi lapangan futsal...</p>
+                <button onclick="window.location.href='form.html'" class="btn">Book Now</button>
+                <button class="btn" onclick="window.location.href='detail.html'">Detail</button>
+
+            </article>
+
+            <article id="Futsal" class="card">
+                <h2>Lapangan Futsal</h2>
+                <img src="assets/lapangan futsal standar.jpg" alt="Lapangan Futsal" class="featured-image">
+                <p>Buka mulai dari jam 09.00 - 23.00</p>
+                <button onclick="window.location.href='form.html'" class="btn">Book Now</button>
+                <button class="btn" onclick="window.location.href='detail.html'">Detail</button>
+            </article>
+
+
+            <article id="Badminton" class="card">
+                <h2>Lapangan Badminton</h2>
+                <img src="assets/foto lapangan badminton.jpg" alt="Lapangan Badminton" class="featured-image">
+                <p>Deskripsi lapangan badminton...</p>
+                <button onclick="window.location.href='form.html'" class="btn">Book Now</button>
+                <button class="btn" onclick="window.location.href='detail.html'">Detail</button>
+            </article>
+
+            <article id="Volly" class="card">
+                <h2>Lapangan Volly</h2>
+                <img src="assets/foto lapangan bola volly.jpg" alt="farm-house bandung" class="featured-image">
+                <p>Deskripsi lapangan voli...</p>
+                <button onclick="window.location.href='form.html'" class="btn">Book Now</button>
+                <button class="btn" onclick="window.location.href='detail.html'">Detail</button>
+
+            </article>
+        </div>
+
+        <aside>
+            <article id="kontak">
+                <header>
+                    <h2>Kontak</h2>
+                    <p>hubungi saya </p>
+                    <figure>
+                        <img src="assets/foto keren.png.jpg" />
+                        <figcaption>Foto Profil</figcaption>
+                    </figure>
+                </header>
+
+                <section>
+                    <h3>Informasi Lainnya</h3>
+
+                    <table>
+                        <tr>
+                            <th>Nama:</th>
+                            <td>Aris</td>
+                        </tr>
+                        <tr>
+                            <th>E-mail:</th>
+                            <td>Arisloscules99@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th>No. hp:</th>
+                            <td>083137190666</td>
+                        </tr>
+                        <tr>
+                            <th>Alamat:</th>
+                            <td>KP. Cisomang Desa wangun jaya</td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+        </aside>
+    </main>
+
+
+    <footer>
+        <div class="sosial">
+            <a href="#"><i data-feather="instagram"></i></a>
+            <a href="#"><i data-feather="twitter"></i></a>
+            <a href="#"><i data-feather="facebook"></i></a>
+        </div>
+
+        <div class="links">
+            <a href="#jumbotron">Home</a>
+            <a href="#about">About</a>
+            <a href="#kontak">Kontak</a>
+        </div>
+
+        <p>Belajar Dasar Pemrograman Web &#169; 2024, Dicoding Academy</p>
+        <div class="credit">
+        </div>
+    </footer>
+
+</body>
+
+</html>
