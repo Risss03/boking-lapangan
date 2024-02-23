@@ -9,39 +9,39 @@
 </head>
 
 <body>
+    <main>
+        <div class="container">
+            <h2>Registration and Booking Form</h2>
+            <form action="#">
+                <label for="name">Nama tim :</label>
+                <input type="text" id="name" name="name" required>
 
-    <div class="container">
-        <h2>Registration and Booking Form</h2>
-        <form action="#">
-            <label for="name">Nama tim :</label>
-            <input type="text" id="name" name="name" required>
+                <label for="main">tanggal booking :</label>
+                <input type="date" id="main" name="main" required>
 
-            <label for="main">tanggal booking :</label>
-            <input type="date" id="main" name="main" required>
+                <label for="main">main jam :</label>
+                <input type="time" id="main" name="main" required>
+                <br>
 
-            <label for="main">main jam :</label>
-            <input type="time" id="main" name="main" required>
-            <br>
+                <label for="phone">No hp:</label>
+                <input type="number" id="phone" name="phone" required>
+                <br>
 
-            <label for="phone">No hp:</label>
-            <input type="number" id="phone" name="phone" required>
-            <br>
-
-            <label for="package">Pilih Paket :</label>
-            <select id="package" name="package">
+                <label for="package">Pilih Paket :</label>
+                <select id="package" name="package">
       <option value="standard">Lapangan Futsal Standar</option>
       <option value="premium">Lapangan Futsal Sintetis</option>
       <option value="standard">Lapangan Bola Volly</option>
       <option value="premium">Lapangan Badminton</option>
     </select>
 
-            <label for="message">Additional Message:</label>
-            <textarea id="message" name="message" rows="4">Mohon datang 15 menit sebelum bertanding, Terima kasih</textarea>
+                <label for="message">Additional Message:</label>
+                <textarea id="message" name="message" rows="4">Mohon datang 15 menit sebelum bertanding, Terima kasih</textarea>
 
-            <input type="submit" value="Submit">
-        </form>
-    </div>
-
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </main>
 </body>
 
 </html>
